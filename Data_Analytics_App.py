@@ -4,8 +4,9 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(
-    page_title='Consoleflare Analytics Portal',
-    page_icon = 'd:\Downloads\analysis_11176575.png'
+    page_title='Data Analytics Portal',
+    page_icon='analysis_11176575.png'
+
 )
 #title
 st.title(':rainbow[Data Analytics Portal]')
