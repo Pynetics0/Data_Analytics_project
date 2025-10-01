@@ -78,7 +78,7 @@ if(file!= None):
         with col2:
             operation_col=st.selectbox('Choose column for operation',options=list(data.columns))
         with col3:
-            operation= st.selectbox ('Choose operation',options=['count','sum','max','min','mean','meadian'])
+            operation= st.selectbox ('Choose operation',options=['count','sum','max','min','mean','median'])
         if(groupby_cols):
             result=data.groupby(groupby_cols).agg(
                 newcol=(operation_col,operation)
