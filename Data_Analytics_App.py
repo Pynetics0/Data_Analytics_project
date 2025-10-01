@@ -6,7 +6,7 @@ import streamlit as st
 # Page config
 st.set_page_config(
     page_title='Consoleflare Analytics Portal',
-    page_icon="analysis_11176575.png"  # <-- image को project folder में रखें
+    page_icon="analysis_11176575.png"  
 )
 
 # Title
